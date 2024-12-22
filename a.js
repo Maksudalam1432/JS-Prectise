@@ -63,6 +63,8 @@ const fruits = [
   
 
   const num=fruits.map(num=> num.price)
-  const ans= num.reduce((acc,cur)=>acc+cur)
+  const ans= fruits.reduce((acc,cur)=>acc+cur.price,0)
+  console.log(ans)
+  console.log(ans)
   console.log(ans)
   
