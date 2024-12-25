@@ -8,3 +8,5 @@ const fruits = [
   { id: 4, name: "Grapes", price: 4.0, expiryDate: "2025-01-10" },
   { id: 5, name: "Mango", price: 5.5, expiryDate: "2024-12-28" },
 ];
+
+console.log("Hello MAruf")
