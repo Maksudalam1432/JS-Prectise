@@ -93,7 +93,7 @@ function q6(){
   // q9()
 // - 10. Check if any fruit has a price less than 2.
    function q10() {
-    const md = fruits.filter(fruit => fruit.price < 3);
+    const md = fruits.filter(fruit => fruit.price < 2);
           const ans =md.length > 0;
           console.log(ans);
   }
