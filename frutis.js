@@ -66,7 +66,7 @@ function q6(){
  
     function q7(){
        
-      fruits.forEach(num=>num.price*2)
+      fruits.forEach(num=>num.price*=2)
       console.log(fruits)
               
     }
@@ -87,7 +87,7 @@ function q6(){
 // - 9. Find the fruit with the name "Mango".
       function q9(){
         // const num=fruits.filter(ans=>ans.name.toLowerCase().includes('mango'))
-        const num=fruits.filter(ans=>ans.name.toLowerCase()=='mango')
+        const num=fruits.filter(ans=>ans.name.toLowerCase()==='mango')
         console.log(num)
       } 
   // q9()
